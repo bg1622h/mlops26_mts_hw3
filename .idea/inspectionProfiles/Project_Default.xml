@@ -1,0 +1,31 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="accelerate" />
+          <option value="gin_config" />
+          <option value="einops" />
+          <option value="numpy" />
+          <option value="pandas" />
+          <option value="polars" />
+          <option value="sentence_transformers" />
+          <option value="tlparse" />
+          <option value="torch" />
+          <option value="torchvision" />
+          <option value="torch_geometric" />
+          <option value="tqdm" />
+          <option value="wandb" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="pandas" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
